@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28A840EC1F0A809400D4EA83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A840EB1F0A809400D4EA83 /* main.m */; };
+		28A840EF1F0A809400D4EA83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A840EE1F0A809400D4EA83 /* AppDelegate.m */; };
+		28A840F21F0A809400D4EA83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A840F11F0A809400D4EA83 /* ViewController.m */; };
+		28A840F51F0A809500D4EA83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A840F31F0A809400D4EA83 /* Main.storyboard */; };
+		28A840F71F0A809500D4EA83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A840F61F0A809500D4EA83 /* Assets.xcassets */; };
+		28A840FA1F0A809500D4EA83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A840F81F0A809500D4EA83 /* LaunchScreen.storyboard */; };
+		28A841051F0A809500D4EA83 /* NSOperation______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A841041F0A809500D4EA83 /* NSOperation______Tests.m */; };
+		28A841101F0A809500D4EA83 /* NSOperation______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A8410F1F0A809500D4EA83 /* NSOperation______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28A841011F0A809500D4EA83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28A840DF1F0A809400D4EA83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A840E61F0A809400D4EA83;
+			remoteInfo = "NSOperation-最大并发数";
+		};
+		28A8410C1F0A809500D4EA83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28A840DF1F0A809400D4EA83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A840E61F0A809400D4EA83;
+			remoteInfo = "NSOperation-最大并发数";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28A840E71F0A809400D4EA83 /* NSOperation-最大并发数.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSOperation-最大并发数.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A840EB1F0A809400D4EA83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28A840ED1F0A809400D4EA83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28A840EE1F0A809400D4EA83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28A840F01F0A809400D4EA83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28A840F11F0A809400D4EA83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28A840F41F0A809400D4EA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28A840F61F0A809500D4EA83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28A840F91F0A809500D4EA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28A840FB1F0A809500D4EA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A841001F0A809500D4EA83 /* NSOperation-最大并发数Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSOperation-最大并发数Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A841041F0A809500D4EA83 /* NSOperation______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSOperation______Tests.m"; sourceTree = "<group>"; };
+		28A841061F0A809500D4EA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A8410B1F0A809500D4EA83 /* NSOperation-最大并发数UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSOperation-最大并发数UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A8410F1F0A809500D4EA83 /* NSOperation______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSOperation______UITests.m"; sourceTree = "<group>"; };
+		28A841111F0A809500D4EA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28A840E41F0A809400D4EA83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A840FD1F0A809500D4EA83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A841081F0A809500D4EA83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28A840DE1F0A809400D4EA83 = {
+			isa = PBXGroup;
+			children = (
+				28A840E91F0A809400D4EA83 /* NSOperation-最大并发数 */,
+				28A841031F0A809500D4EA83 /* NSOperation-最大并发数Tests */,
+				28A8410E1F0A809500D4EA83 /* NSOperation-最大并发数UITests */,
+				28A840E81F0A809400D4EA83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28A840E81F0A809400D4EA83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28A840E71F0A809400D4EA83 /* NSOperation-最大并发数.app */,
+				28A841001F0A809500D4EA83 /* NSOperation-最大并发数Tests.xctest */,
+				28A8410B1F0A809500D4EA83 /* NSOperation-最大并发数UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28A840E91F0A809400D4EA83 /* NSOperation-最大并发数 */ = {
+			isa = PBXGroup;
+			children = (
+				28A840ED1F0A809400D4EA83 /* AppDelegate.h */,
+				28A840EE1F0A809400D4EA83 /* AppDelegate.m */,
+				28A840F01F0A809400D4EA83 /* ViewController.h */,
+				28A840F11F0A809400D4EA83 /* ViewController.m */,
+				28A840F31F0A809400D4EA83 /* Main.storyboard */,
+				28A840F61F0A809500D4EA83 /* Assets.xcassets */,
+				28A840F81F0A809500D4EA83 /* LaunchScreen.storyboard */,
+				28A840FB1F0A809500D4EA83 /* Info.plist */,
+				28A840EA1F0A809400D4EA83 /* Supporting Files */,
+			);
+			path = "NSOperation-最大并发数";
+			sourceTree = "<group>";
+		};
+		28A840EA1F0A809400D4EA83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28A840EB1F0A809400D4EA83 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28A841031F0A809500D4EA83 /* NSOperation-最大并发数Tests */ = {
+			isa = PBXGroup;
+			children = (
+				28A841041F0A809500D4EA83 /* NSOperation______Tests.m */,
+				28A841061F0A809500D4EA83 /* Info.plist */,
+			);
+			path = "NSOperation-最大并发数Tests";
+			sourceTree = "<group>";
+		};
+		28A8410E1F0A809500D4EA83 /* NSOperation-最大并发数UITests */ = {
+			isa = PBXGroup;
+			children = (
+				28A8410F1F0A809500D4EA83 /* NSOperation______UITests.m */,
+				28A841111F0A809500D4EA83 /* Info.plist */,
+			);
+			path = "NSOperation-最大并发数UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28A840E61F0A809400D4EA83 /* NSOperation-最大并发数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A841141F0A809500D4EA83 /* Build configuration list for PBXNativeTarget "NSOperation-最大并发数" */;
+			buildPhases = (
+				28A840E31F0A809400D4EA83 /* Sources */,
+				28A840E41F0A809400D4EA83 /* Frameworks */,
+				28A840E51F0A809400D4EA83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSOperation-最大并发数";
+			productName = "NSOperation-最大并发数";
+			productReference = 28A840E71F0A809400D4EA83 /* NSOperation-最大并发数.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28A840FF1F0A809500D4EA83 /* NSOperation-最大并发数Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A841171F0A809500D4EA83 /* Build configuration list for PBXNativeTarget "NSOperation-最大并发数Tests" */;
+			buildPhases = (
+				28A840FC1F0A809500D4EA83 /* Sources */,
+				28A840FD1F0A809500D4EA83 /* Frameworks */,
+				28A840FE1F0A809500D4EA83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28A841021F0A809500D4EA83 /* PBXTargetDependency */,
+			);
+			name = "NSOperation-最大并发数Tests";
+			productName = "NSOperation-最大并发数Tests";
+			productReference = 28A841001F0A809500D4EA83 /* NSOperation-最大并发数Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28A8410A1F0A809500D4EA83 /* NSOperation-最大并发数UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A8411A1F0A809500D4EA83 /* Build configuration list for PBXNativeTarget "NSOperation-最大并发数UITests" */;
+			buildPhases = (
+				28A841071F0A809500D4EA83 /* Sources */,
+				28A841081F0A809500D4EA83 /* Frameworks */,
+				28A841091F0A809500D4EA83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28A8410D1F0A809500D4EA83 /* PBXTargetDependency */,
+			);
+			name = "NSOperation-最大并发数UITests";
+			productName = "NSOperation-最大并发数UITests";
+			productReference = 28A8410B1F0A809500D4EA83 /* NSOperation-最大并发数UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28A840DF1F0A809400D4EA83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = db;
+				TargetAttributes = {
+					28A840E61F0A809400D4EA83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TACS654R37;
+						ProvisioningStyle = Automatic;
+					};
+					28A840FF1F0A809500D4EA83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TACS654R37;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28A840E61F0A809400D4EA83;
+					};
+					28A8410A1F0A809500D4EA83 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TACS654R37;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 28A840E61F0A809400D4EA83;
+					};
+				};
+			};
+			buildConfigurationList = 28A840E21F0A809400D4EA83 /* Build configuration list for PBXProject "NSOperation-最大并发数" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28A840DE1F0A809400D4EA83;
+			productRefGroup = 28A840E81F0A809400D4EA83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28A840E61F0A809400D4EA83 /* NSOperation-最大并发数 */,
+				28A840FF1F0A809500D4EA83 /* NSOperation-最大并发数Tests */,
+				28A8410A1F0A809500D4EA83 /* NSOperation-最大并发数UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28A840E51F0A809400D4EA83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A840FA1F0A809500D4EA83 /* LaunchScreen.storyboard in Resources */,
+				28A840F71F0A809500D4EA83 /* Assets.xcassets in Resources */,
+				28A840F51F0A809500D4EA83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A840FE1F0A809500D4EA83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A841091F0A809500D4EA83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28A840E31F0A809400D4EA83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A840F21F0A809400D4EA83 /* ViewController.m in Sources */,
+				28A840EF1F0A809400D4EA83 /* AppDelegate.m in Sources */,
+				28A840EC1F0A809400D4EA83 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A840FC1F0A809500D4EA83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A841051F0A809500D4EA83 /* NSOperation______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28A841071F0A809500D4EA83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A841101F0A809500D4EA83 /* NSOperation______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28A841021F0A809500D4EA83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28A840E61F0A809400D4EA83 /* NSOperation-最大并发数 */;
+			targetProxy = 28A841011F0A809500D4EA83 /* PBXContainerItemProxy */;
+		};
+		28A8410D1F0A809500D4EA83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28A840E61F0A809400D4EA83 /* NSOperation-最大并发数 */;
+			targetProxy = 28A8410C1F0A809500D4EA83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28A840F31F0A809400D4EA83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28A840F41F0A809400D4EA83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28A840F81F0A809500D4EA83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28A840F91F0A809500D4EA83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28A841121F0A809500D4EA83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28A841131F0A809500D4EA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28A841151F0A809500D4EA83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TACS654R37;
+				INFOPLIST_FILE = "NSOperation-最大并发数/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.company.NSOperation------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28A841161F0A809500D4EA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TACS654R37;
+				INFOPLIST_FILE = "NSOperation-最大并发数/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.company.NSOperation------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28A841181F0A809500D4EA83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TACS654R37;
+				INFOPLIST_FILE = "NSOperation-最大并发数Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.company.NSOperation------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSOperation-最大并发数.app/NSOperation-最大并发数";
+			};
+			name = Debug;
+		};
+		28A841191F0A809500D4EA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TACS654R37;
+				INFOPLIST_FILE = "NSOperation-最大并发数Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.company.NSOperation------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSOperation-最大并发数.app/NSOperation-最大并发数";
+			};
+			name = Release;
+		};
+		28A8411B1F0A809500D4EA83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TACS654R37;
+				INFOPLIST_FILE = "NSOperation-最大并发数UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.company.NSOperation------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSOperation-最大并发数";
+			};
+			name = Debug;
+		};
+		28A8411C1F0A809500D4EA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TACS654R37;
+				INFOPLIST_FILE = "NSOperation-最大并发数UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.db.company.NSOperation------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NSOperation-最大并发数";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28A840E21F0A809400D4EA83 /* Build configuration list for PBXProject "NSOperation-最大并发数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A841121F0A809500D4EA83 /* Debug */,
+				28A841131F0A809500D4EA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A841141F0A809500D4EA83 /* Build configuration list for PBXNativeTarget "NSOperation-最大并发数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A841151F0A809500D4EA83 /* Debug */,
+				28A841161F0A809500D4EA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28A841171F0A809500D4EA83 /* Build configuration list for PBXNativeTarget "NSOperation-最大并发数Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A841181F0A809500D4EA83 /* Debug */,
+				28A841191F0A809500D4EA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28A8411A1F0A809500D4EA83 /* Build configuration list for PBXNativeTarget "NSOperation-最大并发数UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A8411B1F0A809500D4EA83 /* Debug */,
+				28A8411C1F0A809500D4EA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28A840DF1F0A809400D4EA83 /* Project object */;
+}
